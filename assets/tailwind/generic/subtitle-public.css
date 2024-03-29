@@ -1,0 +1,29 @@
+.subtitle-public {
+    @apply text-light block lg:text-base text-sm font-semibold mb-2
+}
+
+
+
+.subtitle-public-light {
+    @apply text-lighter
+}
+.subtitle-public-white {
+    @apply text-white
+}
+
+
+
+
+
+
+
+/* mehdi */
+.subtitle-public-modern{
+    @apply flex items-center text-light text-base font-semibold mb-5 max-lg:text-sm
+}
+.subtitle-public-medium {
+    @apply text-md max-lg:text-base
+}
+.subtitle-public-large {
+    @apply text-lg font-bold mb-0 max-lg:text-base
+}

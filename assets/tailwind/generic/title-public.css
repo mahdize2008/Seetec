@@ -1,0 +1,16 @@
+.title-public {
+    @apply lg:text-6xl text-xl text-white font-bold block lg:mb-5 mb-3
+}
+.title-public-xl {
+    @apply lg:text-10xl text-3xl
+}
+
+
+
+/* mehdi */
+.title-public-small {
+    @apply font-light text-4xl lg:mb-3
+}
+.title-public-medium {
+    @apply lg:text-xl text-md font-bold
+}

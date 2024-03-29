@@ -1,0 +1,15 @@
+.btn-modern {
+    @apply flex rounded-r-lg overflow-hidden
+}
+.btn-modern-text , .btn-modern-icon {
+    @apply bg-dark-alpha lg:min-h-[55px] min-h-[44px] flex items-center justify-center
+}
+.btn-modern-icon {
+    @apply lg:w-[55px] w-[44px] lg:text-base text-sm text-white
+}
+.btn-modern-text {
+    @apply lg:px-10 px-6 ml-0.5 text-white font-bold lg:text-base text-sm
+}
+.btn-modern-icon-primary {
+    @apply bg-primary text-black
+}

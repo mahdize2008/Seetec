@@ -1,0 +1,10 @@
+.nav-property {
+    @apply relative
+}
+.nav-property:after {
+    @apply content-[""] w-2.5 h-full bg-gradient-to-b from-transparent to-dark absolute right-0 top-0
+}
+.nav-property-item:before {
+    @apply content-[""] w-2.5 h-2.5 bg-primary inline-block rounded-tr-full ml-3 relative top-1.5
+}
+

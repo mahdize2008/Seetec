@@ -1,0 +1,6 @@
+.text-public {
+    @apply text-base text-light block lg:mb-7 mb-4 text-justify
+}
+.text-public-xl {
+    @apply lg:text-md text-sm
+}

@@ -1,0 +1,22 @@
+.swiper-brands-button-prev,.swiper-brands-button-next{
+    @apply absolute top-1/2 -translate-y-1/2
+}
+
+.swiper-brands-button-prev{
+    @apply right-0
+}
+.swiper-brands-button-next{
+    @apply left-0
+}
+
+
+.comment-slide::before{
+    @apply content-[''] w-4 h-1/2 absolute top-1/2 -translate-y-1/2 right-0 bg-dark rounded-l-full
+}
+
+.swiper-items .swiper-wrapper .swiper-slide:last-child div{
+    @apply last:rounded-l-2xl 
+}
+.swiper-items .swiper-wrapper .swiper-slide:first-child div{
+    @apply last:rounded-r-2xl 
+}

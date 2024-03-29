@@ -1,0 +1,3 @@
+.logo-img {
+    @apply lg:max-w-[175px] max-w-[140px]
+}

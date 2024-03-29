@@ -1,0 +1,25 @@
+.input{
+    @apply block w-full h-[60px] max-md:h-[45px] max-md:py-3 pr-4 bg-dark-beta outline-none text-lighter text-md
+}
+.textarea{
+    @apply w-full outline-none bg-dark-beta p-8 max-sm:p-4 text-lighter placeholder:text-light text-md max-lg:text-base max-sm:text-sm font-semibold h-[380px] max-lg:h-[200px]
+}
+.select2{
+    width: 100% !important;
+    @apply px-4 bg-dark-beta outline-none
+}
+.select2 .selection .select2-selection{
+    @apply bg-dark-beta border-0 h-[60px] max-md:h-[45px] flex items-center
+}
+.select2 .selection .select2-selection .select2-selection__rendered{
+    @apply text-lighter text-base
+}
+.select2 .selection .select2-selection .select2-selection__arrow{
+    @apply absolute top-1/2 -translate-y-1/2 left-4
+}
+.select option{
+    @apply text-lighter text-base py-10 max-lg:text-sm
+}
+.label{
+    @apply block text-light text-sm mb-4 max-md:mb-1
+}

@@ -1,0 +1,6 @@
+.link-text-public {
+    @apply flex items-center lg:text-base text-sm text-light font-semibold
+}
+.link-text-public-icon {
+    @apply mr-3
+}

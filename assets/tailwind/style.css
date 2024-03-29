@@ -1,0 +1,55 @@
+/* GENERIC */
+@import "generic/font.css";
+@import "generic/font-icon.css";
+@import "generic/title-public.css";
+@import "generic/subtitle-public.css";
+@import "generic/link-text-public.css";
+@import "generic/img-public.css";
+@import "generic/text-public.css";
+@import "generic/btn-modern.css";
+@import "generic/nav-property.css";
+@import "generic/pagination-public.css";
+@import "generic/logo-img.css";
+@import "generic/lines.css";
+
+
+/* SECTIONS */
+@import "sections/header.css";
+@import "sections/products.css";
+@import "sections/articles.css";
+
+
+/* mehdi */
+@import "generic/form-element.css";
+@import "sections/about-us.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .primary-gradient{
+        background:linear-gradient(-45deg, rgb(179,144,99) 0%, rgb(196,169,135) 100%);
+    }
+}
+@layer base {
+    html , body  {
+        @apply font-["yekanbakh"] overflow-x-hidden text-right bg-dark;
+        direction: rtl;
+    }
+    button {
+        @apply cursor-pointer
+    }
+
+    @media screen and (min-width: 1200px) {
+        .container {
+            max-width: 1200px !important;
+        }
+
+    }
+}
+
+
+
+
+

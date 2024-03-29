@@ -1,0 +1,9 @@
+.lines-wrapper {
+    @apply flex lg:mt-3 mt-2
+}
+.lines-first {
+    @apply lg:w-3 w-2 h-1 bg-dark-alpha block ml-1
+}
+.lines-second {
+    @apply lg:w-12 w-8 h-1 bg-dark-alpha block
+}

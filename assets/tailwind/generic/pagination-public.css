@@ -1,0 +1,9 @@
+.pagination-public {
+    @apply flex items-center
+}
+.pagination-public .swiper-pagination-bullet {
+    @apply lg:w-8 w-4 h-1 rounded-full bg-dark-alpha opacity-100
+}
+.pagination-public .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-primary
+}

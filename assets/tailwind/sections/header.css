@@ -1,0 +1,6 @@
+
+
+
+.header-shape {
+    @apply absolute top-0 left-0 h-full max-lg:w-full max-lg:object-cover max-lg:object-bottom max-lg:opacity-20
+}
